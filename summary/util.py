@@ -34,7 +34,7 @@ def shuffleTable(t):
 #     end
 # end
 
-def string_split(s, c):
+def string_split(s, c=None):
     if not c:
         c=' '
     temp = s.split(c)
